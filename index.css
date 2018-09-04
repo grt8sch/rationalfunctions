@@ -1,0 +1,89 @@
+:root{
+  --header-background: rgb(50,50,50);
+  --header-color: white;
+  --background-color: white;
+  --text-color:black;
+  --background-hover:white;
+  --header-color-hover:black;
+}
+*{
+  font-family: 'Roboto', sans-serif;
+}
+html,body{
+  margin:0;
+}
+header{
+  top:0;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  background-color: var(--header-background);
+  color: var(--header-color);
+  z-index:2;
+}
+#nav-title{
+  display: inline-block;
+}
+#nav-title h2{
+  margin: 10px 0;
+  margin-left: 15px;
+}
+nav{
+
+}
+nav a.navlink{
+  display: block;
+  padding: 15px 18px;
+  color: var(--header-color);
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.25s, color 0.25s;
+}
+nav a.navlink.sublink{
+  padding: 10px 0;
+  padding-left: 25px;
+  font-size:14px;
+}
+nav a.navlink:hover{
+  background-color: var(--background-hover);
+  color: var(--header-color-hover);
+}
+h1,h2,h3{
+  font-weight: normal;
+}
+#content{
+
+}
+#content h1{
+  margin-left: 10px;
+  margin-bottom: 0;
+  clear:both;
+}
+.section{
+  padding: 15px 15px;
+  clear:both;
+}
+.overlay{
+  background-color: rgba(255,255,255,0.8);
+  padding: 15px;
+}
+img{
+  float: right;
+  padding: 0 15px;
+}
+/*
+#section4{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 100px 50px;
+}*/
+iframe{
+  float:right;
+  margin: 10px;
+}
+p{
+  font-size: 18px;
+}

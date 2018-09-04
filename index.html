@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Delete no translate meta tag after inserting all content-->
+  <meta name="google" content="notranslate">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="animate.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="animateonscroll.js"></script>
+  <script src="index.js"></script>
+  <title>Rational Functions</title>
+</head>
+<body>
+  <header>
+    <div id="nav-title">
+      <h2>Rational Functions</h2>
+    </div>
+    <nav>
+        <a class="navlink" href="#" data-target="#task1">Task 1</a>
+        <a class="navlink sublink" href="#" data-target="#section1">1/(x+a)</a>
+        <a class="navlink sublink" href="#" data-target="#section2">1/(x^2+b)</a>
+        <a class="navlink" href="#" data-target="#task2">Task 2</a>
+        <a class="navlink sublink" href="#" data-target="#section3">x/(x+a)</a>
+        <a class="navlink sublink" href="#" data-target="#section4">(x+b)/(x+a)</a>
+        <a class="navlink" href="#" data-target="#task3">Task 3</a>
+        <a class="navlink sublink" href="#" data-target="#section5">(ax^2+bx)/(cx+d)</a>
+    </nav>
+  </header>
+  <div id="content">
+    <h1 id="task1">Task 1</h1>
+    <div id="section1" class="section">
+      <h2>1/(x+a)</h2>
+      <iframe src="https://www.desmos.com/calculator/dczyttfalg?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+      <p>
+        When the slider of variable a changes value, the vertical asymptote of the x value moves with it linearly. The variable a increasing causes shift left, and the variable a decreasing causes shift right.
+      </p>
+      <p>The maximum and minimum number of asymptotes stays at one for a.</p>
+      <p>
+        When 0&lt;a&lt;1 or a &lt; 1, a still behaves normally.
+      </p>
+
+
+    </div>
+    <div id="section2" class="section">
+      <h2>1/(x^2+b)</h2>
+      <iframe src="https://www.desmos.com/calculator/deyonwxpew?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+      <p>
+        When the slider of variable b increases value, the two vertical asymptotes get closer until they are greater than zero which causes the vertical asymptotes to not be real.  When b decreases, the vertical asymptotes get farther apart from each other.  The variable b increasing causes the asymptotes to compress inwards until they are imaginary, and the variable b decreasing causes the asymptotes to stretch away from each other.
+      </p>
+      <p>
+        When b &lt; 0, there are two vertical asymptotes. When b = 0, there is one  vertical asymptote. When b &lt; 0, there are no vertical asymptotes.
+      </p>
+      <p>
+        When 0&lt;b&lt;1, the graph is like a hump that slowly gets smaller the greater value b is. When b is smaller than zero, there is no hump and two asymptotes.
+      </p>
+    </div>
+    <h1 id="task2">Task 2</h1>
+    <div id="section3" class="section">
+      <h2>x/(x+a)</h2>
+      <iframe src="https://www.desmos.com/calculator/e64uauw8ih?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+      <p>
+        The graph gets bigger when a is farther away from zero and causes the x value moves negatively to a.
+      </p>
+      <p>
+        The number of vertical and horizontal asymptotes stays at 1. This is the minimum and maximum asymptotes.
+      </p>
+      <p>
+        When each individual variable becomes between 0 and 1 or smaller than 1, each variable still behaves normally.
+      </p>
+    </div>
+    <div id="section4" class="section">
+      <h2>(x+a)/(x+b)</h2>
+      <iframe src="https://www.desmos.com/calculator/ini9dcvgiv?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+      <p>
+        In the graph, when b gets closer to a, the graph gets smaller.
+        When |b-a| in the graph increases, the vertical and horizontal stretch of the graph increase.
+      </p>
+      <p>
+        The number of vertical and horizontal asymptotes stays at 1. This is the minimum and maximum asymptotes.
+      </p>
+    </div>
+    <h1 id="task3">Task 3</h1>
+    <div id="section5" class="section">
+      <h2>(ax^2+bx)/(cx+d)</h2>
+      <iframe src="https://www.desmos.com/calculator/snklahcpkl?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+      <p>
+        When a is changed, the slant horizontal asymptote slope changes correspondingly. When a is changed the left and right side separate vertically, and the graph increases in size.
+When b is changed, the slant horizontal asymptote y intercept changes. The graph also gets bigger. The graph also gets bigger at the same time.
+When c is changed, the slant horizontal asymptote slope changes correspondingly. When a is changed the left and right side get closer together, and the graph decreases in size.
+When b is changed, the slant horizontal asymptote y intercept changes. The graph also gets smaller. The graph also gets bigger at the same time.
+      </p>
+      <p>
+        When a is increased, the slant horizontal asymptote slope increases. When a is decreased, the slant horizontal asymptote slope decreased. When a is increases or decreases, the graph stretches vertically and compresses horizontally.
+When b is increased, the graph translates up. When b is decreased, the graph is translated down. The graph stretches vertically when b is increased or decreased.
+When c is increased, the slant horizontal asymptote slope increases. When c is decreased, the slant horizontal asymptote slope decreased. When c gets closer to 1, the graph is vertically compressed and horizontally stretched.
+When d is increased, the graph translates up. When d is decreased, the graph translates down. The graph stretches vertically and horizontally when b is increased or decreased.
+      </p>
+      <p>
+        For both graphs, the number of vertical and horizontal asymptotes stays at 1. This is the minimum and maximum asymptotes.
+        When each individual variable becomes smaller than 1, each variable still behaves normally. When a is between 0 and 1 the graph horizontally stretches.  When b is between 0 and 1, the graph is vertically and horizontally compressed. When c is between 0 and 1, the graph is vertically stretched. When d is between 0 and 1, the left the graph is horizontally stretched.
+      </p>
+    </div>
+  </main>
+</body>
+</html>
